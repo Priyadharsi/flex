@@ -1,0 +1,304 @@
+<! DOCTYPE html>
+<html>
+<head>
+    <title>ResumeFlex</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<style>
+        *{
+           box-sizing: border-box;
+            }
+        *{ 
+            font-family: Arial,sans-serif;
+            }
+	    body{
+		    background-color: white;         
+			}
+		.container{
+		    width: 1000px;
+			background-color: white;
+			margin: 0 auto;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			}
+		.header-info{
+		    display: flex;
+			align-items: center;
+			}
+		.image img{  
+		    width: 178px;
+			}
+		.user-name{
+		    flex-grow: 1;
+			padding-left: 120px;
+			}
+		.user-name h1{
+		    padding-bottom: 5px;
+			}
+		.nav{
+		    padding-top: 5px;
+			word-spacing: 10px;
+			}
+        .c{
+            text-decoration: none;
+            color: black;
+          }
+        .d{
+            text-decoration: none;
+            color: lightgrey;
+          }
+        .e{ 
+            text-decoration: none;
+            color: lightgrey;
+           }
+        .f{
+            text-decoration: none;
+            color: lightgrey;
+          }
+        .g{
+            text-decoration: none;
+            color: lightgrey;
+         }
+		.workinfo{
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding-bottom: 10px;
+			}
+        .workinfo h3{
+            color: lightgrey;
+            font-size: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        a{
+            display: inline-block;
+            border: 3px solid white;
+            text-decoration: none;
+            padding: 15px 25px;
+            color: white;
+         }
+        .img img{
+            width: 40px;
+          }
+        .skills{
+               flex grow: 1
+            }
+        .courses{
+            word-spacing: 90px;
+           }
+        .edu{
+            border-left-style: solid;
+            padding-left: 22px;
+            line-height: 0.5;
+           }
+        .project{
+            border-left-style: solid;
+            padding-left: 22px;
+            line-height: 0.5;
+             }
+        .contact{
+            word-spacing: 50px;
+        }
+        .defn .p{
+            text-align: justify;
+          }
+        .img img{
+            width: 40px;
+            }
+        .flex-container {
+            display: flex;
+            height: 123px;
+            justify-content: center;
+            justify-content: flex-end; 
+          }
+        .flex-container > div {
+            background-color: grey;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 20px;
+            
+           }
+          
+       
+		    
+		</style>
+
+	</head>
+<body>
+    <section class="container">
+	<!.............Header Info............>
+	<div class="header-info">
+	    <div class="image">
+		    <img src="image/picture5.jpg" alt="user picture">
+		</div>
+		<div class="user-name">
+		    <h1>Priyadharshini R</h1>
+			<hr>
+        <div class="nav">
+			    <a href="#" class="c"><b>About</b></a>
+				<a href="#" class="d">Skill</a>
+				<a href="#" class="e">Education</a>
+			    <a href="#" class="f">Project</a>
+				<a href="#" class="g">Contact</a>
+	</div>
+	</div>
+	</div>
+	<!.............Header Info........>
+	</section>
+	<section class="workinfo">
+	<div class="workinfo">
+	    <h3>Hello World</h3>
+		<h1>Im a UI Developer</h1>
+		<h3>from chennai,India</h3>
+		<a href="#">Download my resume</a>
+		</div>
+	</section>
+	<hr>
+	<section>
+	    <h1>Skill</h1>
+		<div class="img">
+		    <img src="image/skill-pic.png" alt="user picture">
+		</div>
+		<div> 
+		    <p class="defn">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+		</div>
+		<div class="courses">
+		    <span>HTMLs</span>
+			<span>CSS3</span>
+			<span>Photoshop</span>
+			<span>jQuery</span>
+			<span>JAVA</span>
+			<span>MYSQL</span>
+		</div>
+    </section>
+		<section>
+		    <h1>Education</h1>
+			<div class="img">
+                <img src="image/education.png" alt="user picture">
+            </div>
+            <div>
+                <p class="defn">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div><br>
+            <div class="edu">
+                <p>May 2014</p>
+                <p>UG in B.Sc ISM</p> 
+                <p><b>College arts & science,Chennai.</b></p>
+                <p>Achievements-participated Extermpor,Group Discussions</p>
+			</div>
+            <div class="flex-container">
+               <div>
+                <p>78%</p>
+            </div>
+            </div>
+			<div class="edu">
+			    <p>April 2010</p>
+				<p>HSC from Govt</p>
+				<p><b>Govt hr sec school,Chennai.</b></p>
+				<p>Achievements-participated Extermpor,Group Discussions</p>
+			</div>
+            <div class="flex-container">
+                <div>
+                <p>85%</p>
+            </div>
+            </div>
+			<div class="edu">
+			    <p>April 2008</p>
+				<p>SSLC from Govt</p>
+				<p><b>Govt hr sec school,Chennai.</b></p>
+				<p>Achievements-participated Extermpor,Group Discuusions</p>
+			</div>
+            <div class="flex-container">
+               <div>
+                <p>96%</p>
+            </div>
+            </div>
+		</section>
+        <section>
+            <h1>Projects</h1>
+            <div class="img">
+                <img src="image/project-pic.png" alt="user picture">
+            </div>
+            <div> 
+                <p class="defn">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div><br>
+            <div class="project"> 
+                <p>Final year project</p>
+                <h3>Project Name</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p>Technologies: JAVA,MySQL,DBMS</p>
+                <p>Team Size: 4 member</p>
+            </div><br>
+            <div class="project">
+                <p>Final year project</p>
+                <h3>Project Name</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p>Technologies: JAVA,MySQL,DBMS</p>
+                <p>Team Size: 4 member</p>
+            </div><br>
+            <div class="project">
+                <p>Final year project</p>
+                <h3>Project Name</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p>Technologies: JAVA,MySQL,DBMS</p>
+                <p>Team Size: 4 member</p>
+            </div>
+        </section>
+        <section>
+            <h1>
+                Contact
+            </h1>
+            <p>We are just call away,i'm active in all possible communication media.Make use of your prefered one given below</p>
+            
+            <div class="contact">
+                <img src="image/contact2.png" alt="user picture">
+                <img src="image/Email.png" alt="user picture">
+                <img src="image/internet.png" alt="user picture">
+                <img src="image/facebook.png" alt="user picture">
+                <img src="image/google.png" alt="user picture">
+                <img src="image/netin.png" alt="user picture">
+                <img src="image/twitter.png" alt="user picture">
+            </div>
+                <p><a href="#">www.sample.com|All rights reserved</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+</body>
+</html>
+	
